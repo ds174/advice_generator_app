@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: hsl(218, 23%, 16%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Manrope', sans-serif;
+}
+
+.container {
+    background-color: hsl(217, 19%, 24%);
+    padding: 3rem 3rem 0rem 3rem;
+    border-radius: 0.938rem;
+    width: 27.75rem;
+    height: 17.75rem;
+    text-align: center;
+    position: relative;
+}
+
+.advice_id{
+    color: hsl(150, 100%, 66%);
+    font-size: 0.813rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.advice{
+    font-size: 1.75rem;
+    color: hsl(193, 38%, 86%);
+    margin-top: 1.5rem;
+}
+
+.img_desktop{
+    margin-top: 2.5rem;
+    position: absolute;
+    left: 3rem;
+}
+
+.btn {
+    background-image: url('/images/icon-dice.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 4rem;
+    width: 4rem;
+    background-color: hsl(150, 100%, 66%);
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -2rem;
+    left: 14.875rem;
+    margin-top: 2.5rem;
+}
+
+.btn:hover {
+    box-shadow: 0 0 5px hsl(150, 100%, 66%),
+                0 0 15px hsl(150, 85%, 64%),
+                0 0 35px hsl(150, 99%, 73%),
+                0 0 60px hsl(150, 100%, 76%);
+}
