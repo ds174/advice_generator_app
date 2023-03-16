@@ -12,7 +12,7 @@ async function getAdvice() {
   const response = await fetch(apiURL, options);
   const data = await response.json();
 
-  advice_id.innerText = "Advice # " + data.slip.id;
+  advice_id.innerText = "Advice #" + data.slip.id;
   function first() {
     if (data.slip.advice.length > 100) {
       var change = document.getElementById("advice");
