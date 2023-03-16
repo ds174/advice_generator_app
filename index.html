@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
@@ -27,20 +26,29 @@
   <body>
     <main>
       <div class="container">
-        <h1 class="advice_id" id="advice_id">Advice #</h1>
+        <h1 class="advice_id" id="advice_id">Advice # 1</h1>
 
         <div class="advice" id="advice">
-          "lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-          incidunt beatae pla"
+          Click the button below to generate an advice
         </div>
 
-        <img
-          src="images/pattern-divider-desktop.svg"
-          alt="divider"
-          class="img_desktop"
-        />
+        <picture>
+          <source
+            media="(max-width: 377px)"
+            srcset="/images/pattern-divider-mobile1.svg"
+          />
+          <source
+            media="(min-width: 440px)"
+            srcset="/images/pattern-divider-desktop.svg"
+          />
+          <img
+            src="/images/pattern-divider-desktop.svg"
+            alt="divider"
+            class="img"
+          />
+        </picture>
 
-        <button class="btn" id="btn" ></button>
+        <button class="btn" id="btn"></button>
       </div>
       <script src="script.js"></script>
     </main>
