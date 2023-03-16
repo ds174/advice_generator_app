@@ -33,6 +33,7 @@ Users should be able to:
 - HTML
 - CSS
 - Vanilla JS
+- Rest API
 
 ### What I learned
 
